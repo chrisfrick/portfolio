@@ -1,0 +1,6 @@
+{
+  "htmlWhitespaceSensitivity": "css",
+  "singleQuote": true,
+  "semi": false,
+  "arrowParens": "avoid"
+}
