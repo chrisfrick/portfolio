@@ -108,13 +108,19 @@ header {
   flex-wrap: wrap;
 }
 
-.mockup {
+.mockup-browser {
   width: 700px;
   max-width: 100%;
   height: auto;
 }
 
+.mockup-mobile {
+  width: auto;
+  height: 500px;
+}
+
 .container.project-card {
+  padding: 5vh 0;
   height: auto;
   width: 100%;
   /* flex-wrap: wrap; */
