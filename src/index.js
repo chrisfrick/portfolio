@@ -33,10 +33,6 @@ const navigate = elem => {
   }
 }
 
-const navLinks = document.querySelectorAll('nav li')
-
-navLinks.forEach(elem => elem.addEventListener('click', () => navigate(elem)))
-
 const scrollElements = document.querySelectorAll('.js-scroll')
 
 const elementInView = (elem, offset = 0) => {
@@ -81,6 +77,18 @@ const throttle = (callback, time) => {
     throttleTimer = false
   }, time)
 }
+
+const nav = document.querySelector('nav')
+
+nav.addEventListener('click', event => {
+  if (event.target.tagName === 'LI') {
+    navigate(event.target)
+  }
+})
+
+// const navLinks = document.querySelectorAll('nav li')
+
+// navLinks.forEach(elem => elem.addEventListener('click', () => navigate(elem)))
 
 window.addEventListener('scroll', () => {
   throttle(handleScrollAnimation, 250)
