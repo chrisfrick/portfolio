@@ -27,6 +27,9 @@ const navigate = elem => {
     case 'nav-projects':
       scrollToId('projects')
       break
+    case 'nav-resume':
+      scrollToId('resume')
+      break
   }
 }
 

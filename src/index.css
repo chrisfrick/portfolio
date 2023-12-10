@@ -80,6 +80,12 @@ header {
   min-height: 450px;
 }
 
+#resume {
+  justify-content: center;
+  align-items: space-around;
+  background-color: var(--blue);
+}
+
 #avatar {
   height: 300px;
   width: 300px;
@@ -99,8 +105,8 @@ header {
 }
 
 .js-scroll {
-  width: 50%;
-  height: 300px;
+  width: 70%;
+  /* height: 300px; */
   opacity: 0;
   transition: opacity 500ms;
 }
