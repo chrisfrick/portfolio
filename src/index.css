@@ -78,8 +78,15 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10%;
+  align-content: center;
+  flex-wrap: wrap;
+  column-gap: 10%;
+  row-gap: 5%;
   height: 100vh;
+}
+
+#social-links {
+  flex-basis: 100%;
 }
 
 /* Colored containers for each large section */
