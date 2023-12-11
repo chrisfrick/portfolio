@@ -16,6 +16,8 @@
   --moonstone: #639fabff;
 }
 
+/* GENERAL STYLES */
+
 body {
   font-family: Poppins, sans-serif;
   font-size: large;
@@ -34,6 +36,8 @@ h1 {
 h2 {
   font-size: 2em;
 }
+
+/* NAV BAR */
 
 nav {
   position: fixed;
@@ -68,6 +72,27 @@ nav ul li:hover {
   cursor: pointer;
 }
 
+/* MAIN CONTENT  */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  height: 100vh;
+}
+
+/* Colored containers for each large section */
+.scroll-container {
+  padding: 0 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-height: 450px;
+}
+
+/* Container to hold content */
 .container {
   display: flex;
   justify-content: center;
@@ -80,27 +105,10 @@ nav ul li:hover {
   margin: auto;
 }
 
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10%;
-  height: 100vh;
-}
+/* ABOUT SECTION  */
 
-.scroll-container {
-  padding: 0 5%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  min-height: 450px;
-}
-
-#resume {
-  justify-content: center;
-  align-items: space-around;
-  background-color: var(--blue);
+#about {
+  background-color: var(--blue-gray);
 }
 
 #avatar {
@@ -108,13 +116,18 @@ header {
   width: 300px;
 }
 
-#about {
-  background-color: var(--blue-gray);
-}
+/* PROJECT SECTION  */
 
 .scroll-container.project-container {
   height: auto;
   flex-wrap: wrap;
+}
+
+.container.project-card {
+  padding: 5vh 0;
+  height: auto;
+  width: 100%;
+  /* flex-wrap: wrap; */
 }
 
 .mockup-browser {
@@ -126,13 +139,6 @@ header {
 .mockup-mobile {
   width: auto;
   height: 500px;
-}
-
-.container.project-card {
-  padding: 5vh 0;
-  height: auto;
-  width: 100%;
-  /* flex-wrap: wrap; */
 }
 
 i {
@@ -149,4 +155,12 @@ i {
   text-decoration: none;
   border: none;
   color: black;
+}
+
+/* RESUME SECTION  */
+
+#resume {
+  justify-content: center;
+  align-items: space-around;
+  background-color: var(--blue);
 }
