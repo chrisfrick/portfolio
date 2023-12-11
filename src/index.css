@@ -7,6 +7,13 @@
   --blue: #1c5d99ff;
   --green: #639fabff;
   --blue-gray: #bbcde5ff;
+
+  /* Cooksys colors :)  */
+  --kelly-green: #7ac042ff;
+  --lapis-lazuli: #005595ff;
+  --orange-peel: #faa633ff;
+  --white: #ffffffff;
+  --moonstone: #639fabff;
 }
 
 body {
@@ -46,6 +53,7 @@ nav {
   justify-content: space-between;
   width: 100%;
   max-width: 1280px;
+  padding: 0 5%;
 }
 
 nav ul {
@@ -81,6 +89,7 @@ header {
 }
 
 .scroll-container {
+  padding: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
