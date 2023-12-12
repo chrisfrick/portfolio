@@ -8,7 +8,6 @@
 }
 
 .js-scroll {
-  /* width: 70%; */
   opacity: 0;
   transition: opacity 500ms;
 }
@@ -29,6 +28,7 @@
 .scrolled.slide-right {
   animation: slide-in-right 1s ease-in-out both;
 }
+
 @keyframes slide-in-left {
   0% {
     transform: translateX(-100px);
