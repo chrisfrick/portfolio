@@ -85,6 +85,10 @@ header {
   height: 100vh;
 }
 
+#greeting {
+  line-height: 1.5em;
+}
+
 #social-links {
   flex-basis: 100%;
 }
