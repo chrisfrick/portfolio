@@ -14,11 +14,16 @@
   --cerulean: #457b9dff;
   --berkeley-blue: #1d3557ff; */
 
-  --isabelline: #f8f5f2;
+  /* --isabelline: #f8f5f2;
   --moonstone: #639fab;
   --violet: #b68cb8;
   --blue: #083d77;
-  --charcoal: #454851;
+  --charcoal: #454851; */
+
+  --white: #ffffff;
+  --snow: #f9f6f7;
+  --slate-gray: #6c809a;
+  --mint: #3ab795;
 }
 
 /* GENERAL STYLES */
@@ -87,7 +92,7 @@ header {
   column-gap: 10%;
   row-gap: 5%;
   height: 100vh;
-  background-color: var(--isabelline);
+  background-color: var(--snow);
 }
 
 #greeting {
@@ -124,7 +129,7 @@ header {
 /* ABOUT SECTION  */
 
 #about {
-  background-color: var(--moonstone);
+  background-color: var(--slate-gray);
 }
 
 #avatar {
@@ -137,7 +142,7 @@ header {
 .scroll-container.project-container {
   height: auto;
   flex-wrap: wrap;
-  /* background-color: var(--isabelline); */
+  background-color: var(--white);
 }
 
 .container.project-card {
@@ -178,5 +183,5 @@ i {
 #resume {
   justify-content: center;
   align-items: space-around;
-  background-color: var(--blue);
+  background-color: var(--mint);
 }
