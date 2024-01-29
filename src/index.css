@@ -169,7 +169,7 @@ header {
 }
 
 .project-card div {
-  flex-basis: 400px;
+  flex-basis: 300px;
   flex-grow: 30;
 }
 
